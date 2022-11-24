@@ -82,4 +82,10 @@ If you can observe that packet transmit/receive worked and there is no packet lo
 
 `sudo smartcam --usb 0 -W 1920 -H 1080 -r 30 --target dp`
 
+Or, if you want to record the output to a file, use the following command:
+
+`smartcam --usb 1 -W 1920 -H 1080 -r 30 --target file`
+
+here can be found a sample recorded file in h.264 format.
+
 Note: The argument 0 for “--usb” depends on which media node the USB webcam was detected by running Linux on Vision AI Starter Kit. In this case, it was /dev/media0, so we used “--usb 0.
