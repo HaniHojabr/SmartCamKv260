@@ -25,13 +25,12 @@ Four COM ports are enumerated where the second numbered COM port corresponds to 
 
 Configure your terminal program (e.g., TeraTerm, PuTTy) with the settings shown below.
 
-'''
-- Baud rate = 115200
-- Data bits = 8
-- Stop bits = 1
-- Flow control = None
-- Parity = None
-'''
+**- Baud rate = 115200**
+**- Data bits = 8**
+**- Stop bits = 1
+**- Flow control = None
+**- Parity = None**
+
 
 **For Linux**, open a terminal by right clicking on the Desktop and selecting “Open In Terminal”, and enter the following command to observe which COM ports appear when you plug in the USB cable attached to the KV260 into your computer.
 
