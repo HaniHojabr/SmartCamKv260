@@ -92,6 +92,7 @@ If you can observe that packet transmit/receive worked and there is no packet lo
 Or, if you want to record the output to a file, use the following command:
 
 `smartcam --usb 1 -W 1920 -H 1080 -r 30 --target file`
+
 Note: Output file is “./out.h264”
 
 [here](https://drive.google.com/drive/u/1/folders/1SkvqrEcsaYtsYXRs4ZGlVokoQW-kFnKj) can be found a sample recorded file in h.264 format.
