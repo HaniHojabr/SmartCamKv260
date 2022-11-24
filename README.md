@@ -1,6 +1,6 @@
 # HiPerAIHL-1
 
-This tuturial shows how to run Smart Camera Project on Kria Kv260 board.
+This tutorial shows how to run Smart Camera Project on Kria Kv260 board.
 Details can be found [here](https://www.xilinx.com/products/som/kria/kv260-vision-starter-kit/kv260-getting-started/getting-started.html)
 
 1) Download the [Kria Ubuntu Desktop 22.04 LTS Image](https://drive.google.com/file/d/1l3sUqZDmzPQo-70NrrBYVKosOTTpTyFr/view?usp=share_link) and save it on your computer.
