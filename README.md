@@ -33,13 +33,13 @@ Parity = None
 
 B) **For Linux**, open a terminal by right clicking on the Desktop and selecting “Open In Terminal”, and enter the following command to observe which COM ports appear when you plug in the USB cable attached to the KV260 into your computer.
 
-$ dmesg | grep tty
+`dmesg | grep tty`
 
 Four COM ports should be enumerated. The second numbered COM port corresponds to the UART.​
 
 Configure your UART within the same terminal. You can also configure your terminal program with the same settings below. These settings are the same as defined in the Windows set-up.
 
-$ sudo putty /dev/ttyUSB2 -serial -sercfg 115200,8,n,1,N
+`sudo putty /dev/ttyUSB2 -serial -sercfg 115200,8,n,1,N`
 
 The Starter Kit uses an FTDI USB to COM port device that requires the FTDI virtual COM port driver to be installed on your machine. If the driver is not already installed on your host machine or Linux does not automatically detect it and load the appropriate driver, go to the following link for additional guidance: 
 
