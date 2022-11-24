@@ -50,36 +50,36 @@ https://ftdichip.com/drivers/vcp-drivers/
 
 To enable the root user, use the command below because “petalinux” has limited privileges. Enter the same password that you created for “petalinux” in the above step.
 
-sudo su -l root
+`sudo su -l root`
 
 Verify Internet connectivity via “ping” or “DNS lookup.”
 
-ping 8.8.8.8
+`ping 8.8.8.8`
 
 If you can observe that packet transmit/receive worked and there is no packet loss with the above ping command, this means your Internet connectivity is working and active.
 
 12) Run the below command to get the list of available application package groups.
  
-sudo xmutil getpkgs
+`sudo xmutil getpkgs`
 
 13) Run the below command to install Smart Camera accelerated application package group from the above listing. Press “y” when prompted and wait for approximately two minutes for 204 packages to install.
 
-sudo dnf install packagegroup-kv260-smartcam.noarch
+`sudo dnf install packagegroup-kv260-smartcam.noarch`
 
 14) Run the below command to list the existing application firmware available on the Vision AI Starter Kit.
 
-sudo xmutil listapps
+`sudo xmutil listapps`
 
 15) Run the below command to unload default “kv260-dp” application firmware.
 
-sudo xmutil unloadapp
+`sudo xmutil unloadapp`
 
 16) Run the below command to load Smart Camera accelerated application firmware.
 
-sudo xmutil loadapp kv260-smartcam
+`sudo xmutil loadapp kv260-smartcam`
 
 17) place the recommended USB webcam pointing to the users face and run the following command:
 
-sudo smartcam --usb 0 -W 1920 -H 1080 -r 30 --target dp
+`sudo smartcam --usb 0 -W 1920 -H 1080 -r 30 --target dp`
 
 Note: The argument 0 for “--usb” depends on which media node the USB webcam was detected by running Linux on Vision AI Starter Kit. In this case, it was /dev/media0, so we used “--usb 0.
