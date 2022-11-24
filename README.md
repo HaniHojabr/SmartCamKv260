@@ -13,6 +13,8 @@ Details can be found on Xilinx website.
 8) Connect the Ethernet cable for required internet access
 8) Grab the Power Supply and connect it to the DC jack (J12) on the Starter Kit.
 
+![KriaBoard](https://user-images.githubusercontent.com/118986413/203835344-ba3268c0-4756-4c4c-82d9-3091f59dd5bb.jpg)
+
 9) Based on your OS you can follow the instructions:
 
 **For Windows**, use the Device Manager to observe which COM ports appear when you plug the USB cable attached to the KV260 Starter Kit into your computer.
