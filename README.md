@@ -54,6 +54,9 @@ To enable the root user, use the command below because “petalinux” has limit
 
 `sudo su -l root`
 
+At now, you can see this page.
+![Terminal_Login](https://user-images.githubusercontent.com/118986413/203834996-f5defb1a-3315-4893-a274-7c0298a70080.png)
+
 Verify Internet connectivity via “ping” or “DNS lookup.”
 
 `ping 8.8.8.8`
