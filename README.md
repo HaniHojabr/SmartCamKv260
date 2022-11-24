@@ -15,7 +15,7 @@ Details can be found on Xilinx website.
 
 9) Based on your OS you can follow the instructions:
 
- **For Windows**, use the Device Manager to observe which COM ports appear when you plug the USB cable attached to the KV260 Starter Kit into your computer.
+**For Windows**, use the Device Manager to observe which COM ports appear when you plug the USB cable attached to the KV260 Starter Kit into your computer.
 
 The Starter Kit uses an FTDI USB to COM port device that requires the FTDI virtual COM port driver to be installed on your machine. If the driver is not already installed on your host machine or Windows has not automatically installed it, go to the following link:
 
@@ -31,8 +31,7 @@ Configure your terminal program (e.g., TeraTerm, PuTTy) with the settings shown 
 - **Flow control = None**
 - **Parity = None**
 
-
- **For Linux**, open a terminal by right clicking on the Desktop and selecting “Open In Terminal”, and enter the following command to observe which COM ports appear when you plug in the USB cable attached to the KV260 into your computer.
+**For Linux**, open a terminal by right clicking on the Desktop and selecting “Open In Terminal”, and enter the following command to observe which COM ports appear when you plug in the USB cable attached to the KV260 into your computer.
 
 `dmesg | grep tty`
 
